@@ -5,10 +5,10 @@
 
   &__description {
     display: none;
+    margin-top: 26px;
     line-height: 26px;
     font-size: 18px;
     height: 85px;
-    margin-top: 26px;
     width: 360px;
     color: $text-color-light-grey;
 
@@ -18,11 +18,11 @@
   }
 
   &__line {
+    margin: 0;
+    margin-top: 40px;
     border-top: 1px solid #2b292d;
     width: 100%;
     opacity: 0.1;
-    margin: 0;
-    margin-top: 40px;
   
     @include for-large-up {
       margin: 0;
