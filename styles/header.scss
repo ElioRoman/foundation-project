@@ -3,7 +3,6 @@
 
   @include for-large-up{
     padding-top: 39px;
-    background: #f3c6bd;
   }
 }
 
@@ -16,11 +15,10 @@
   background-color: white;
   
   @include for-large-up{
-    display: flex;
+    margin: auto;
     height: 62px;
     width: 1140px;
-    margin: auto;
-    background: #f3c6bd;
+    background:transparent;
   }
 
   .action-botton.header__button {

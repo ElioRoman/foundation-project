@@ -479,7 +479,6 @@
 @media screen and (min-width: 1400px) {
   .top-section {
     padding-top: 39px;
-    background: #f3c6bd;
   }
 }
 
@@ -493,11 +492,10 @@
 }
 @media screen and (min-width: 1400px) {
   .header {
-    display: flex;
+    margin: auto;
     height: 62px;
     width: 1140px;
-    margin: auto;
-    background: #f3c6bd;
+    background: transparent;
   }
 }
 .header .action-botton.header__button {
