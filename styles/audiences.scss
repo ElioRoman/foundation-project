@@ -79,15 +79,6 @@
         width: 1139px;
       }
     }
-    &__item-name {
-      margin-top: 22px;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 28px;
-    }
-    &__item-img {
-      margin-top: 22px;
-    }
   }
   .user-card {
     display: flex;
@@ -107,6 +98,17 @@
     }
     &:last-child {
       margin-bottom: 0;
+    }
+
+    &__item-name {
+      margin-top: 22px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+    }
+    
+    &__item-img {
+      margin-top: 22px;
     }
   
     @include for-large-up {
